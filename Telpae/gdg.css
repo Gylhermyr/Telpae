@@ -1,0 +1,191 @@
+@import url("https://googleapis.com");
+@import url("https://use.typekit.net/oov2wcw.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+header{
+    background-color: #ab1616;
+    height: 100%;
+    width: 98.94%;
+    font-size: 30px;
+    padding: 10px;
+}
+#titulo1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    margin-left: 50%;
+}
+button{
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'century-gothic', sans-serif;
+    border-radius: 30px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ee5007;
+    border: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    outline: 2px solid wheat;
+    transform: scale(1.1);
+}
+#hediv{
+    display:flex;
+    justify-content: space-around;
+    height: 100%;
+}
+#hebnt{
+    gap:100px;
+    display: flex;
+    align-items: center;
+}
+#mtfimg{
+    transform: scaleX(-1);
+    position: absolute;
+    height: 80%;
+    left: 50%;
+    bottom: 5%;
+}
+#rdiv{
+    background-color: #b22727;
+    color: white;
+}
+#titulo2{
+    font-size: 90px;
+    width: 28%;
+    line-height: 1.5;
+    margin-left: 10%;
+    padding-top: 5%;
+    position: relative;
+}
+#p1{
+    position: relative;
+    margin-left: 10%;
+    font-size: 180%;
+    width: 30%;
+    padding-bottom: 10%;
+}
+#bdiv{
+    background-color: black;
+    color: white;
+    position: relative;
+}
+#titulo3{
+    font-size: 90px;
+    width: 28%;
+    line-height: 1.5;
+    margin-left: 65%;
+    padding-top: 15%;
+    position: relative;
+    text-align: end;
+}
+#imgin{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    top: 19%;
+    margin-left: 8%;
+}
+#p2{
+    position: relative;
+    margin-left: 63%;
+    font-size: 180%;
+    width: 30%;
+    text-align: end;
+}
+#p3{
+    position: relative;
+    margin-left: 65%;
+    font-size: 180%;
+    width: 28%;
+    padding-bottom: 10%;
+    text-align: end;
+}
+#corujadiv{
+    display: flex;
+    justify-content: center;
+}
+#corujaimg{
+    width: 8%;
+    height: 8%;
+    padding: 1%;
+}
+#r2div{
+    background-color: #b22727;
+    color: white;
+}
+#titulo4{
+    font-size: 90px;
+    width: 28%;
+    line-height: 1.5;
+    margin-left: 10%;
+    padding-top: 5%;
+    position: relative;
+}
+#p4{
+    position: relative;
+    margin-left: 10%;
+    font-size: 180%;
+    width: 30%;
+}
+#p5{
+    position: relative;
+    margin-left: 10%;
+    font-size: 180%;
+    width: 30%;
+    padding-bottom: 5%;
+}
+#corujaoimg{
+    position: absolute;
+    top: 202%;
+    margin-left: 45%;
+    height: 100%;
+}
+footer{
+    position: relative;
+    color: white;
+    background-color: black;
+    bottom: 0;
+    margin: 0;
+    padding: 3%;
+}
+#footdiv{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+#titulo5{
+    align-items: center;
+    font-size: 40px;
+}
+#contatosdiv{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    gap: 5%;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Open-sans', sans-serif;
+}
+.pclass{
+    font-family: 'century-gothic', sans-serif;
+}
